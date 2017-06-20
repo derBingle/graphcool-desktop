@@ -2,12 +2,15 @@ const nativefier = require('nativefier').default;
 
 // possible options, defaults unless specified otherwise
 const options = {
-  name       :  'Graphcool',
-  targetUrl  :  'https://console.graph.cool/',
-  platform   :  'linux',
-  version    :  '1.0.0',
-  out        :  '../src/linux',
-  icon       :  '../static/graphcool_512x512.png',
+  name              : 'Graphcool',
+  targetUrl         : 'https://console.graph.cool/',
+  platform          : 'mac',
+  version           : '1.0.0',
+  out               : '../src/macOS',
+  icon              : '../static/graphcool.icns',
+  fastQuit          : true,
+  disableContextMenu: true,
+  disableDevTools   : true,
 };
 
 nativefier(options, function(error, appPath) {
