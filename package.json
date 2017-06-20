@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:derBingle/graphcool-desktop.git",
   "author": "derBingle <bing@derBingle.blog> (http://derBingle.blog)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nativefier": "^7.4.0"
+  }
 }
