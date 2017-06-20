@@ -1,0 +1,9 @@
+{
+  "name": "graphcool-desktop",
+  "version": "1.0.0",
+  "description": "A desktop version of the Graphcool Console.",
+  "main": "index.js",
+  "repository": "git@github.com:derBingle/graphcool-desktop.git",
+  "author": "derBingle <bing@derBingle.blog> (http://derBingle.blog)",
+  "license": "MIT"
+}
